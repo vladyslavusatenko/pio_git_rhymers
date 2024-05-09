@@ -6,9 +6,9 @@ public class CountingOut {
 
 	private static final int RETURNERROR = -1;
 
-	private int[] numbers = new int[ELEMENTSNUMBER];
+	private final int[] numbers = new int[ELEMENTSNUMBER];
 
-	public int total = RETURNERROR;
+	public int total = -1;
 
 	public void countIn(int in) {
 		if (!isFull())

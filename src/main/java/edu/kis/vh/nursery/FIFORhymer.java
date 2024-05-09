@@ -2,7 +2,7 @@ package edu.kis.vh.nursery;
 
 public class FIFORhymer extends CountingOut {
 
-    public CountingOut temp = new CountingOut();
+    public final CountingOut temp = new CountingOut();
     
     @Override
     public int countOut() {

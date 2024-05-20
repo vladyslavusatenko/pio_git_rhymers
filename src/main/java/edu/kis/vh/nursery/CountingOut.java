@@ -8,7 +8,7 @@ public class CountingOut {
 
 	private final int[] numbers = new int[ELEMENTSNUMBER];
 
-	public int total = -1;
+	private int total = -1;
 
 	public void countIn(int in) {
 		if (!isFull())

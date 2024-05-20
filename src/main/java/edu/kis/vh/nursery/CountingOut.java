@@ -14,9 +14,6 @@ public class CountingOut {
 		return total;
 	}
 
-	public void setTotal(int total) {
-		this.total = total;
-	}
 
 	public void countIn(int in) {
 		if (!isFull())
